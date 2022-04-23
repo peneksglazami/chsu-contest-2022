@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+    <title>C - Колорадский жук</title>
+</head>
+
+<body>
+
+<p>Входной файл: <b> input.txt</b></p>
+<p>Выходной файл: <b> стандартный поток вывода («вывод
+    на экран»)</b></p>
+<p>Ограничение по времени: <b> 3 секунды на тест</b></p>
+<p>Ограничение по памяти: <b> 32 Мб</b></p>
+<p><b>Условие задачи</b></p>
+<p ALIGN="JUSTIFY">
+    Летние каникулы Петя проводит у бабушки в деревне и помогает ей ухаживать за картофелем, который они посадили весной.
+    Этим летом картофель уродился на славу, и на грядку прилетела целая стая колорадских жуков.
+    Для того чтобы уничтожить жуков, Петя с помощью своего квадрокоптера провёл разведку и определил на каких картофельных
+    кустах сидят жуки. После этого Петя прикрепил к квадрокоптеру банку со спреем "Антижук" и решил распылить её в месте
+    скопления наибольшего количества жуков. Помогите Пете найти это место и посчитать какое максимальное количество жуков
+    попадут в зону действия спрея.
+</p>
+
+<p ALIGN="JUSTIFY"><b>Входные данные</b></p>
+<p>Первая строка файла <b>input.txt</b> содержит два числа: целое число <i><b>N</b></i> (1 <= <i><b>N</b></i> <= 100) и
+    вещественное число <i><b>R</b></i> (0.01 <= <i><b>R</b></i> <= 1000.00) с двумя знаками дробной части, где <i><b>N</b></i> - количество жуков на грядке,
+    <i><b>R</b></i> - радиус действия спрея от места его распыления (все жуки, находящиеся на расстоянии не превышающем
+    <i><b>R</b></i> от места распыления спрея, попадают под его действие). Далее следует <i><b>N</b></i> строк,
+    задающих координаты жуков <i><b>X</b></i> и <i><b>Y</b></i> (0 <= <i><b>X</b></i>, <i><b>Y</b></i> <= 100).
+    <i><b>X</b></i> и <i><b>Y</b></i> - целые числа.
+<p>
+    <b>Выходные данные</b></p>
+<p ALIGN="JUSTIFY">В стандартный поток необходимо вывести целое число, равное максимальному количеству жуков,
+    которые могут попасть под действие спрея.</p>
+<table BORDER="1" CELLSPACING="0" BORDERCOLOR="#000000" WIDTH="642" cellpadding="0">
+    <tr>
+        <td WIDTH="50%" BGCOLOR="#cccccc" valign="top" align="left"><b><font FACE="Courier New">
+            <p style="word-spacing: 0; line-height: 100%; margin: 0">input.txt</font></b></td>
+        <td WIDTH="50%" BGCOLOR="#cccccc" valign="top" align="left"><b><font FACE="Courier New">
+            <p style="word-spacing: 0; line-height: 100%; margin: 0">Стандартный
+                поток вывода</font></b></td>
+    </tr>
+    <tr>
+        <td WIDTH="50%" valign="top" align="left"><font FACE="Courier New">
+            <p style="word-spacing: 0; line-height: 100%; margin: 0;font-family: 'Courier New'">3 2.00</p>
+            <p style="word-spacing: 0; line-height: 100%; margin: 0;font-family: 'Courier New'">0 0</p>
+            <p style="word-spacing: 0; line-height: 100%; margin: 0;font-family: 'Courier New'">0 3</p>
+            <p style="word-spacing: 0; line-height: 100%; margin: 0;font-family: 'Courier New'">5 5</p>
+        </td>
+        <td WIDTH="50%" valign="top" align="left"><font FACE="Courier New">
+            <p style="word-spacing: 0; line-height: 100%; margin: 0;font-family: 'Courier New'">2</p>
+        </td>
+    </tr>
+</table>
+
+</body>
+
+</html>

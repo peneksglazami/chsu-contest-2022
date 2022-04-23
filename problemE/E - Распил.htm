@@ -1,0 +1,108 @@
+<html>
+
+<head>
+<title>E - Распил</title>
+</head>
+
+<body>
+
+<b><font FACE="Arial" SIZE="5"></font></b>
+<p ALIGN="JUSTIFY"><font face="Times New Roman" size="3">Входной файл:
+</font> <b><font face="Times New Roman" size="3">input.txt</font></p>
+</b>
+<p><font face="Times New Roman" size="3">Выходной файл: </font> <b><font face="Times New Roman" size="3">стандартный
+поток вывода («вывод на экран»)</font></p>
+</b>
+<p><font face="Times New Roman" size="3">Ограничение по
+времени: </font> <b><font face="Times New Roman" size="3">1
+секунда на тест</font></p>
+</b>
+<p><font face="Times New Roman" size="3">Ограничение по
+памяти: </font> <b><font face="Times New Roman" size="3">32 Мб</font></p>
+</b>
+<p ALIGN="JUSTIFY"><b><font face="Times New Roman" size="3">Условие
+задачи</font></b></p>
+<p ALIGN="JUSTIFY"><font face="Times New Roman" size="3">В самом
+главном министерстве настала жаркая пора:
+необходимо распились бюджет на несколько
+кусков – более мелких бюджетов. Бюджет
+представляет собой большой слиток золота
+длиной
+<i> L</i>  метров. Специально созданная для
+этого случая бюджетообрабатывающая
+компания берёт плату за пилку в зависимости
+от размера бюджета, который нужно распилить.
+Стоимость 1 метра равна 1 условной единице. В
+связи с угрозой мирового финансового
+кризиса в министерстве было принято
+решение определить оптимальный план
+распила бюджета, который позволит
+распилить бюджет за минимальную стоимость.</font></p>
+<p ALIGN="JUSTIFY"><font face="Times New Roman" size="3">Например,
+рассмотрим золотой слиток длиной 10 м,
+который необходимо распилить на расстоянии
+2, 4 и 7 м, считая от одного конца. Это можно
+сделать несколькими способами. Можно
+распилить сначала на отметке 2 м, потом 4 и
+затем 7 м. Это приведёт к стоимости: 10 + 8 + 6 = 24,
+потому что сначала длина, который пилили,
+была 10 м, затем она стала 8 м и, наконец, 6 м. А
+можно распилить иначе: сначала на отметке 4
+м, затем 2 и затем 7 м. Это приведёт к
+стоимости: 10 + 4 + 6 = 20.</font></p>
+<p ALIGN="JUSTIFY"><font face="Times New Roman" size="3">Вам поручено
+написать программу, которая будет находить
+минимальную стоимость распила бюджета.</font></p>
+<p><b><font face="Times New Roman" size="3">Входные данные</font></b></p>
+<p><font face="Times New Roman" size="3">Первая строка
+входного файла <b> input.txt</b>  содержит
+положительное число
+<b><i> L</i></b>  (<b><i>L</i></b>  &lt; 1000), задающее длину
+золотого слитка, который нужно распилить.
+Вторая строка содержит число
+<b><i> N</i></b>  (<b><i>N</i></b>  &lt; 50) распилов, которые
+нужно сделать. Третья строка содержит
+<b><i>N</i></b>  положительных чисел <b> c<sub>i</sub></b>  (0
+&lt; <b> c<sub>i</sub></b>  &lt;
+<i><b>L</b></i>), задающих места, в которых
+необходимо сделать распилы, в строго
+возрастающем порядке.</font></p>
+<p ALIGN="JUSTIFY"><b><font face="Times New Roman" size="3">Выходные
+данные</font></b></p>
+<p ALIGN="JUSTIFY"><font face="Times New Roman" size="3">В
+стандартный поток выводится одно число
+<b><i> M</i></b>  равное стоимости распила бюджета.</font></p>
+<p ALIGN="JUSTIFY"><b><font face="Times New Roman" size="3">Пример
+тестовых данных</font></b></p>
+<table BORDER="1" CELLSPACING="0" BORDERCOLOR="#000000" WIDTH="650" cellpadding="0">
+  <tr>
+    <td WIDTH="52%" VALIGN="top" BGCOLOR="#cccccc" align="left"><b><font FACE="Courier New">
+      <p style="word-spacing: 0; line-height: 100%; margin: 0"><font size="3">input.txt</font></font></b></td>
+    <td WIDTH="48%" VALIGN="top" BGCOLOR="#cccccc" align="left"><b><font FACE="Courier New">
+      <p style="word-spacing: 0; line-height: 100%; margin: 0"><font size="3">Стандартный
+      поток вывода</font></font></b></td>
+  </tr>
+  <tr>
+    <td WIDTH="52%" VALIGN="top" align="left">
+      <p style="line-height: 12.0pt; word-spacing: 0; margin: 0"><font face="Courier New" size="3">10<br>
+      3<br>
+      2 4 7
+      </font></p>
+    </td>
+    <td WIDTH="48%" VALIGN="top" align="left">
+      <p style="word-spacing: 0; line-height: 100%; margin: 0"><font size="3" face="Courier New">20</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="52%" VALIGN="top" align="left">
+      <p style="word-spacing: 0; margin: 0"><font face="Courier New" size="3">10<br>
+      4<br>
+      4 5 7 8</font></p>
+    </td>
+    <td WIDTH="48%" VALIGN="top" align="left"><font face="Courier New" size="3">22</font></td>
+  </tr>
+</table>
+<p ALIGN="JUSTIFY">&nbsp;</p>
+
+</body>
+
+</html>
